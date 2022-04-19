@@ -1,7 +1,7 @@
 
 <p>Can you please write your review of the Kanshu game, it can be super long or short. We appreciate the feedback!🤗</p>
 
-<textarea rows ="6" [value]="newPost"></textarea>
+<textarea rows ="6" [(ngModel)] ="enteredValue"></textarea>
 <hr>
 <button (click)="onAddPost()">Save Post</button>
 <p>{{newPost}}</p>
