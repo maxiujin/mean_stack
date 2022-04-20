@@ -1,0 +1,15 @@
+mat-card {
+  background-color: #22e39c;
+}
+mat-form-field,
+textarea {
+  width: 100%;
+  color: black;
+
+}
+.mat-raised-button  {
+  background-color: #084d45;
+}
+
+
+

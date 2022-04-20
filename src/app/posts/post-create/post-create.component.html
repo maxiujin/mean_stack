@@ -1,8 +1,15 @@
 
-<p>Can you please write your review of the Kanshu game, it can be super long or short. We appreciate the feedback!🤗</p>
+<p style="color:#fff">Can you please write your review of the Kanshu game, it can be super long or short. We appreciate the feedback!🤗</p>
+<mat-card>
+<mat-form-field>
+<textarea matInput rows ="6" [(ngModel)] ="enteredValue"></textarea>
+</mat-form-field>
 
-<textarea rows ="6" [(ngModel)] ="enteredValue"></textarea>
-<hr>
-<button (click)="onAddPost()">Save Post</button>
-<p>{{newPost}}</p>
+<button
+color="primary"
+mat-raised-button (click)="onAddPost()">Save Post</button>
+
+
+</mat-card>
+
 
