@@ -2,7 +2,11 @@
 <p style="color:#fff">Can you please write your review of the Kanshu game, it can be super long or short. We appreciate the feedback!🤗</p>
 <mat-card>
 <mat-form-field>
-<textarea matInput rows ="6" [(ngModel)] ="enteredValue"></textarea>
+  <input matInput type="text" [(ngModel)] ="enteredTitle">
+</mat-form-field>
+
+<mat-form-field>
+<textarea matInput rows ="6" [(ngModel)] ="enteredContent"></textarea>
 </mat-form-field>
 
 <button
